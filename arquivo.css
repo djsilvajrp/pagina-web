@@ -1,0 +1,16 @@
+.exemplo {
+    height: 100px; /* Altura da div*/
+    width: 100px;     /* largura */
+    border: 1px solid black; /* borda */
+    /* centralizar itens da div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*------------------------------------*/
+    background-color: black;    /* cor de background */
+    font-size: larger; /* tamanho da fonte */
+    font-family: 'Courier New'; /*estiliza fonte*/
+    position: fixed; /* controla posição do elemento */
+    margin: 10px; /* controla o espaçamento entre itens (lado de fora) */
+    padding: 10px; /* controla espaçamento dos itens (lado de dentro) */
+}
